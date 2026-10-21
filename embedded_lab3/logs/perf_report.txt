@@ -1,0 +1,2216 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 121  of event 'cycles:P'
+# Event count (approx.): 92040192
+#
+# Children      Self  Command      Shared Object         Symbol                                   
+# ........  ........  ...........  ....................  .........................................
+#
+    66.95%    57.26%  perf_target  libm.so.6             [.] __ieee754_log_fma
+            |          
+            |--9.69%--__ieee754_log_fma
+            |          
+            |--1.35%--0x40f0948000000000
+            |          heavy_compute
+            |          
+            |--1.32%--0x40e3292000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.23%--0x40f6564000000000
+            |          heavy_compute
+            |          
+            |--1.20%--0x40ef9be000000000
+            |          heavy_compute
+            |          
+            |--1.09%--0x40f50f9000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.08%--0x40e5e9a000000000
+            |          log@@GLIBC_2.29
+            |          
+            |--1.06%--0x40b0850000000000
+            |          heavy_compute
+            |          
+            |--1.05%--0x40eed8c000000000
+            |          heavy_compute
+            |          
+            |--1.04%--0x40efa9c000000000
+            |          log@plt
+            |          
+            |--1.03%--0x40f3a1d000000000
+            |          heavy_compute
+            |          
+            |--1.03%--0x40e1e9a000000000
+            |          heavy_compute
+            |          
+            |--1.02%--0x40dfd10000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.02%--0x40f418b000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.02%--0x40f6056000000000
+            |          heavy_compute
+            |          
+            |--1.02%--0x40f341a000000000
+            |          log@@GLIBC_2.29
+            |          
+            |--1.02%--0x40e1c66000000000
+            |          heavy_compute
+            |          
+            |--0.98%--0x40e9898000000000
+            |          heavy_compute
+            |          
+            |--0.97%--0x40f79ac000000000
+            |          heavy_compute
+            |          
+            |--0.97%--0x40e3336000000000
+            |          heavy_compute
+            |          
+            |--0.96%--0x40f48a5000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.96%--0x40f273a000000000
+            |          log@@GLIBC_2.29
+            |          
+            |--0.96%--0x40d8db4000000000
+            |          heavy_compute
+            |          
+            |--0.96%--0x40f24a9000000000
+            |          heavy_compute
+            |          
+            |--0.96%--0x40f3286000000000
+            |          heavy_compute
+            |          
+            |--0.96%--0x40f1c26000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.96%--0x40d9d60000000000
+            |          heavy_compute
+            |          
+            |--0.95%--0x40f0a90000000000
+            |          heavy_compute
+            |          
+            |--0.95%--0x40ee922000000000
+            |          heavy_compute
+            |          
+            |--0.95%--0x40c8158000000000
+            |          log@@GLIBC_2.29
+            |          
+            |--0.95%--0x40ec682000000000
+            |          heavy_compute
+            |          
+            |--0.95%--0x40e87b4000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.94%--0x40f7dc5000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.94%--0x40e57ba000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.94%--0x40e3630000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.93%--0x40f45e3000000000
+            |          heavy_compute
+            |          
+            |--0.93%--0x40f3e30000000000
+            |          log@@GLIBC_2.29
+            |          
+            |--0.93%--0x40dd280000000000
+            |          log@@GLIBC_2.29
+            |          
+            |--0.92%--0x40e02a6000000000
+            |          log@plt
+            |          
+            |--0.92%--0x40dfd34000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.92%--0x40f4244000000000
+            |          heavy_compute
+            |          
+            |--0.92%--0x40f35d9000000000
+            |          heavy_compute
+            |          
+            |--0.92%--0x40da448000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.91%--0x40e00dc000000000
+            |          heavy_compute
+            |          
+            |--0.91%--0x40f4206000000000
+            |          heavy_compute
+            |          
+            |--0.91%--0x40f33eb000000000
+            |          heavy_compute
+            |          
+            |--0.91%--0x40db654000000000
+            |          heavy_compute
+            |          
+            |--0.89%--0x40dbf30000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.89%--0x40da99c000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.88%--0x40f2e62000000000
+            |          heavy_compute
+            |          
+            |--0.88%--0x40deb4c000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.88%--0x40f3d72000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.87%--0x40dea80000000000
+            |          log@@GLIBC_2.29
+            |          
+            |--0.85%--0x40e15ae000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.84%--0x40f5512000000000
+            |          heavy_compute
+            |          
+            |--0.79%--0x40e7e58000000000
+            |          heavy_compute
+            |          
+            |--0.79%--0x40f4684000000000
+            |          heavy_compute
+            |          
+            |--0.77%--0x40e47ec000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.75%--0x40ee928000000000
+            |          heavy_compute
+            |          
+            |--0.74%--0x40d9194000000000
+            |          heavy_compute
+            |          
+             --0.56%--0x40d5880000000000
+                       __ieee754_log_fma
+
+    60.67%    20.48%  perf_target  perf_target           [.] heavy_compute
+            |          
+            |--40.20%--heavy_compute
+            |          
+            |--1.17%--0x40d0dec000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.12%--0x40f397e000000000
+            |          heavy_compute
+            |          
+            |--1.10%--0x40e1058000000000
+            |          heavy_compute
+            |          
+            |--1.04%--0x40d17e8000000000
+            |          heavy_compute
+            |          
+            |--1.03%--0x40d63e0000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.02%--0x40e0648000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.02%--0x40f697f000000000
+            |          heavy_compute
+            |          
+            |--0.98%--0x40ef34a000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.96%--0x40db020000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.96%--0x40d5fe0000000000
+            |          heavy_compute
+            |          
+            |--0.94%--0x40f60f7000000000
+            |          heavy_compute
+            |          
+            |--0.94%--0x40f6617000000000
+            |          heavy_compute
+            |          
+            |--0.93%--0x40f517d000000000
+            |          heavy_compute
+            |          
+            |--0.93%--0x40f47a1000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.92%--0x40df080000000000
+            |          heavy_compute
+            |          
+            |--0.92%--0x40f2e09000000000
+            |          heavy_compute
+            |          
+            |--0.91%--0x40ddda8000000000
+            |          log@plt
+            |          
+            |--0.90%--0x40f2b7b000000000
+            |          log@@GLIBC_2.29
+            |          
+            |--0.90%--0x40da2a0000000000
+            |          heavy_compute
+            |          
+            |--0.90%--0x40f273f000000000
+            |          log@@GLIBC_2.29
+            |          
+             --0.89%--0x40f2f78000000000
+                       __ieee754_log_fma
+
+    13.98%     5.44%  perf_target  libm.so.6             [.] log@@GLIBC_2.29
+            |          
+            |--8.53%--log@@GLIBC_2.29
+            |          
+            |--0.98%--0x40bf4b0000000000
+            |          heavy_compute
+            |          
+            |--0.97%--0x40e6334000000000
+            |          heavy_compute
+            |          
+            |--0.95%--0x40d0418000000000
+            |          log@@GLIBC_2.29
+            |          
+            |--0.94%--0x40e35fa000000000
+            |          heavy_compute
+            |          
+            |--0.83%--0x40e3412000000000
+            |          heavy_compute
+            |          
+             --0.77%--0x40b8880000000000
+                       heavy_compute
+
+     6.87%     3.91%  perf_target  perf_target           [.] log@plt
+            |          
+            |--2.96%--log@plt
+            |          
+            |--1.24%--0x40f7df2000000000
+            |          heavy_compute
+            |          
+            |--0.95%--0x40affa0000000000
+            |          log@plt
+            |          
+            |--0.92%--0x40f49d4000000000
+            |          heavy_compute
+            |          
+             --0.81%--0x40f688c000000000
+                       __ieee754_log_fma
+
+     4.65%     4.65%  perf_target  libm.so.6             [.] __log_finite@GLIBC_2.15@plt
+            |          
+            |--0.97%--0x40f6bd3000000000
+            |          heavy_compute
+            |          
+            |--0.97%--0x40ddcd4000000000
+            |          __ieee754_log_fma
+            |          
+            |--0.93%--0x40e02ea000000000
+            |          heavy_compute
+            |          
+            |--0.93%--0x40e1ada000000000
+            |          __ieee754_log_fma
+            |          
+             --0.86%--0x40f4004000000000
+                       heavy_compute
+
+     3.95%     0.00%  perf_target  perf_target           [.] main
+            |
+            ---main
+               |          
+               |--2.26%--asm_exc_page_fault
+               |          exc_page_fault
+               |          do_user_addr_fault
+               |          handle_mm_fault
+               |          __handle_mm_fault
+               |          handle_pte_fault
+               |          do_anonymous_page
+               |          |          
+               |           --0.74%--folio_add_new_anon_rmap
+               |          
+               |--0.94%--__munmap
+               |          entry_SYSCALL_64_after_hwframe
+               |          do_syscall_64
+               |          x64_sys_call
+               |          __x64_sys_munmap
+               |          __vm_munmap
+               |          do_vmi_munmap
+               |          do_vmi_align_munmap
+               |          unmap_region
+               |          unmap_vmas
+               |          unmap_single_vma
+               |          unmap_page_range
+               |          zap_pmd_range.isra.0
+               |          zap_pte_range
+               |          
+                --0.75%--_IO_puts
+                          _IO_file_xsputn@@GLIBC_2.2.5
+                          _IO_file_overflow@@GLIBC_2.2.5
+                          _IO_doallocbuf
+                          __fstat64
+                          entry_SYSCALL_64_after_hwframe
+                          do_syscall_64
+                          x64_sys_call
+                          __x64_sys_newfstat
+                          __do_sys_newfstat
+                          cp_new_stat
+                          _copy_to_user
+
+     3.59%     0.00%  perf_target  [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+            |
+            ---entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               |          
+               |--1.02%--__x64_sys_write
+               |          ksys_write
+               |          vfs_write
+               |          ext4_file_write_iter
+               |          ext4_buffered_write_iter
+               |          generic_perform_write
+               |          ext4_da_write_begin
+               |          ext4_block_write_begin
+               |          ext4_da_get_block_prep
+               |          ext4_da_map_blocks.constprop.0
+               |          _raw_read_unlock
+               |          
+               |--0.94%--__x64_sys_munmap
+               |          __vm_munmap
+               |          do_vmi_munmap
+               |          do_vmi_align_munmap
+               |          unmap_region
+               |          unmap_vmas
+               |          unmap_single_vma
+               |          unmap_page_range
+               |          zap_pmd_range.isra.0
+               |          zap_pte_range
+               |          
+               |--0.75%--__x64_sys_newfstat
+               |          __do_sys_newfstat
+               |          cp_new_stat
+               |          _copy_to_user
+               |          
+                --0.68%--__x64_sys_mmap
+                          ksys_mmap_pgoff
+                          vm_mmap_pgoff
+                          do_mmap
+                          mmap_region
+                          __mmap_region
+                          do_vmi_munmap
+                          do_vmi_align_munmap
+                          __split_vma
+                          vma_prepare
+                          vma_interval_tree_insert
+
+     3.59%     0.00%  perf_target  [kernel.kallsyms]     [k] do_syscall_64
+            |
+            ---do_syscall_64
+               x64_sys_call
+               |          
+               |--1.02%--__x64_sys_write
+               |          ksys_write
+               |          vfs_write
+               |          ext4_file_write_iter
+               |          ext4_buffered_write_iter
+               |          generic_perform_write
+               |          ext4_da_write_begin
+               |          ext4_block_write_begin
+               |          ext4_da_get_block_prep
+               |          ext4_da_map_blocks.constprop.0
+               |          _raw_read_unlock
+               |          
+               |--0.94%--__x64_sys_munmap
+               |          __vm_munmap
+               |          do_vmi_munmap
+               |          do_vmi_align_munmap
+               |          unmap_region
+               |          unmap_vmas
+               |          unmap_single_vma
+               |          unmap_page_range
+               |          zap_pmd_range.isra.0
+               |          zap_pte_range
+               |          
+               |--0.75%--__x64_sys_newfstat
+               |          __do_sys_newfstat
+               |          cp_new_stat
+               |          _copy_to_user
+               |          
+                --0.68%--__x64_sys_mmap
+                          ksys_mmap_pgoff
+                          vm_mmap_pgoff
+                          do_mmap
+                          mmap_region
+                          __mmap_region
+                          do_vmi_munmap
+                          do_vmi_align_munmap
+                          __split_vma
+                          vma_prepare
+                          vma_interval_tree_insert
+
+     3.59%     0.00%  perf_target  [kernel.kallsyms]     [k] x64_sys_call
+            |
+            ---x64_sys_call
+               |          
+               |--1.02%--__x64_sys_write
+               |          ksys_write
+               |          vfs_write
+               |          ext4_file_write_iter
+               |          ext4_buffered_write_iter
+               |          generic_perform_write
+               |          ext4_da_write_begin
+               |          ext4_block_write_begin
+               |          ext4_da_get_block_prep
+               |          ext4_da_map_blocks.constprop.0
+               |          _raw_read_unlock
+               |          
+               |--0.94%--__x64_sys_munmap
+               |          __vm_munmap
+               |          do_vmi_munmap
+               |          do_vmi_align_munmap
+               |          unmap_region
+               |          unmap_vmas
+               |          unmap_single_vma
+               |          unmap_page_range
+               |          zap_pmd_range.isra.0
+               |          zap_pte_range
+               |          
+               |--0.75%--__x64_sys_newfstat
+               |          __do_sys_newfstat
+               |          cp_new_stat
+               |          _copy_to_user
+               |          
+                --0.68%--__x64_sys_mmap
+                          ksys_mmap_pgoff
+                          vm_mmap_pgoff
+                          do_mmap
+                          mmap_region
+                          __mmap_region
+                          do_vmi_munmap
+                          do_vmi_align_munmap
+                          __split_vma
+                          vma_prepare
+                          vma_interval_tree_insert
+
+     3.20%     0.00%  perf_target  [unknown]             [k] 0x0000000300000002
+            |
+            ---0x300000002
+               main
+               |          
+               |--2.26%--asm_exc_page_fault
+               |          exc_page_fault
+               |          do_user_addr_fault
+               |          handle_mm_fault
+               |          __handle_mm_fault
+               |          handle_pte_fault
+               |          do_anonymous_page
+               |          |          
+               |           --0.74%--folio_add_new_anon_rmap
+               |          
+                --0.94%--__munmap
+                          entry_SYSCALL_64_after_hwframe
+                          do_syscall_64
+                          x64_sys_call
+                          __x64_sys_munmap
+                          __vm_munmap
+                          do_vmi_munmap
+                          do_vmi_align_munmap
+                          unmap_region
+                          unmap_vmas
+                          unmap_single_vma
+                          unmap_page_range
+                          zap_pmd_range.isra.0
+                          zap_pte_range
+
+     2.94%     0.00%  perf_target  [unknown]             [k] 0x00005d41dd6bc890
+            |
+            ---0x5d41dd6bc890
+               io_intensive
+               __fprintf_chk
+               __vfprintf_internal
+               |          
+               |--2.01%--__printf_buffer
+               |          |          
+               |          |--1.02%--__printf_buffer_write
+               |          |          __printf_buffer_flush
+               |          |          __printf_buffer_flush_to_file
+               |          |          _IO_file_overflow@@GLIBC_2.2.5
+               |          |          _IO_do_write@@GLIBC_2.2.5
+               |          |          __GI___libc_write
+               |          |          entry_SYSCALL_64_after_hwframe
+               |          |          do_syscall_64
+               |          |          x64_sys_call
+               |          |          __x64_sys_write
+               |          |          ksys_write
+               |          |          vfs_write
+               |          |          ext4_file_write_iter
+               |          |          ext4_buffered_write_iter
+               |          |          generic_perform_write
+               |          |          ext4_da_write_begin
+               |          |          ext4_block_write_begin
+               |          |          ext4_da_get_block_prep
+               |          |          ext4_da_map_blocks.constprop.0
+               |          |          _raw_read_unlock
+               |          |          
+               |           --0.99%--__memmove_avx512_unaligned_erms
+               |          
+                --0.93%--_itoa_word
+
+     2.94%     0.00%  perf_target  perf_target           [.] io_intensive
+            |
+            ---io_intensive
+               __fprintf_chk
+               __vfprintf_internal
+               |          
+               |--2.01%--__printf_buffer
+               |          |          
+               |          |--1.02%--__printf_buffer_write
+               |          |          __printf_buffer_flush
+               |          |          __printf_buffer_flush_to_file
+               |          |          _IO_file_overflow@@GLIBC_2.2.5
+               |          |          _IO_do_write@@GLIBC_2.2.5
+               |          |          __GI___libc_write
+               |          |          entry_SYSCALL_64_after_hwframe
+               |          |          do_syscall_64
+               |          |          x64_sys_call
+               |          |          __x64_sys_write
+               |          |          ksys_write
+               |          |          vfs_write
+               |          |          ext4_file_write_iter
+               |          |          ext4_buffered_write_iter
+               |          |          generic_perform_write
+               |          |          ext4_da_write_begin
+               |          |          ext4_block_write_begin
+               |          |          ext4_da_get_block_prep
+               |          |          ext4_da_map_blocks.constprop.0
+               |          |          _raw_read_unlock
+               |          |          
+               |           --0.99%--__memmove_avx512_unaligned_erms
+               |          
+                --0.93%--_itoa_word
+
+     2.94%     0.00%  perf_target  libc.so.6             [.] __fprintf_chk
+            |
+            ---__fprintf_chk
+               __vfprintf_internal
+               |          
+               |--2.01%--__printf_buffer
+               |          |          
+               |          |--1.02%--__printf_buffer_write
+               |          |          __printf_buffer_flush
+               |          |          __printf_buffer_flush_to_file
+               |          |          _IO_file_overflow@@GLIBC_2.2.5
+               |          |          _IO_do_write@@GLIBC_2.2.5
+               |          |          __GI___libc_write
+               |          |          entry_SYSCALL_64_after_hwframe
+               |          |          do_syscall_64
+               |          |          x64_sys_call
+               |          |          __x64_sys_write
+               |          |          ksys_write
+               |          |          vfs_write
+               |          |          ext4_file_write_iter
+               |          |          ext4_buffered_write_iter
+               |          |          generic_perform_write
+               |          |          ext4_da_write_begin
+               |          |          ext4_block_write_begin
+               |          |          ext4_da_get_block_prep
+               |          |          ext4_da_map_blocks.constprop.0
+               |          |          _raw_read_unlock
+               |          |          
+               |           --0.99%--__memmove_avx512_unaligned_erms
+               |          
+                --0.93%--_itoa_word
+
+     2.94%     0.00%  perf_target  libc.so.6             [.] __vfprintf_internal
+            |
+            ---__vfprintf_internal
+               |          
+               |--2.01%--__printf_buffer
+               |          |          
+               |          |--1.02%--__printf_buffer_write
+               |          |          __printf_buffer_flush
+               |          |          __printf_buffer_flush_to_file
+               |          |          _IO_file_overflow@@GLIBC_2.2.5
+               |          |          _IO_do_write@@GLIBC_2.2.5
+               |          |          __GI___libc_write
+               |          |          entry_SYSCALL_64_after_hwframe
+               |          |          do_syscall_64
+               |          |          x64_sys_call
+               |          |          __x64_sys_write
+               |          |          ksys_write
+               |          |          vfs_write
+               |          |          ext4_file_write_iter
+               |          |          ext4_buffered_write_iter
+               |          |          generic_perform_write
+               |          |          ext4_da_write_begin
+               |          |          ext4_block_write_begin
+               |          |          ext4_da_get_block_prep
+               |          |          ext4_da_map_blocks.constprop.0
+               |          |          _raw_read_unlock
+               |          |          
+               |           --0.99%--__memmove_avx512_unaligned_erms
+               |          
+                --0.93%--_itoa_word
+
+     2.94%     0.93%  perf_target  libc.so.6             [.] __printf_buffer
+            |          
+            |--2.01%--__printf_buffer
+            |          |          
+            |          |--1.02%--__printf_buffer_write
+            |          |          __printf_buffer_flush
+            |          |          __printf_buffer_flush_to_file
+            |          |          _IO_file_overflow@@GLIBC_2.2.5
+            |          |          _IO_do_write@@GLIBC_2.2.5
+            |          |          __GI___libc_write
+            |          |          entry_SYSCALL_64_after_hwframe
+            |          |          do_syscall_64
+            |          |          x64_sys_call
+            |          |          __x64_sys_write
+            |          |          ksys_write
+            |          |          vfs_write
+            |          |          ext4_file_write_iter
+            |          |          ext4_buffered_write_iter
+            |          |          generic_perform_write
+            |          |          ext4_da_write_begin
+            |          |          ext4_block_write_begin
+            |          |          ext4_da_get_block_prep
+            |          |          ext4_da_map_blocks.constprop.0
+            |          |          _raw_read_unlock
+            |          |          
+            |           --0.99%--__memmove_avx512_unaligned_erms
+            |          
+             --0.93%--0x5d41dd6bc890
+                       io_intensive
+                       __fprintf_chk
+                       __vfprintf_internal
+                       _itoa_word
+
+     2.73%     0.00%  perf_target  [kernel.kallsyms]     [k] asm_exc_page_fault
+            |
+            ---asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               |          
+                --2.26%--do_anonymous_page
+                          |          
+                           --0.74%--folio_add_new_anon_rmap
+
+     2.73%     0.00%  perf_target  [kernel.kallsyms]     [k] exc_page_fault
+            |
+            ---exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               |          
+                --2.26%--do_anonymous_page
+                          |          
+                           --0.74%--folio_add_new_anon_rmap
+
+     2.73%     0.00%  perf_target  [kernel.kallsyms]     [k] do_user_addr_fault
+            |
+            ---do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               |          
+                --2.26%--do_anonymous_page
+                          |          
+                           --0.74%--folio_add_new_anon_rmap
+
+     2.73%     0.00%  perf_target  [kernel.kallsyms]     [k] handle_mm_fault
+            |
+            ---handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               |          
+                --2.26%--do_anonymous_page
+                          |          
+                           --0.74%--folio_add_new_anon_rmap
+
+     2.73%     0.00%  perf_target  [kernel.kallsyms]     [k] __handle_mm_fault
+            |
+            ---__handle_mm_fault
+               handle_pte_fault
+               |          
+                --2.26%--do_anonymous_page
+                          |          
+                           --0.74%--folio_add_new_anon_rmap
+
+     2.73%     0.00%  perf_target  [kernel.kallsyms]     [k] handle_pte_fault
+            |
+            ---handle_pte_fault
+               |          
+                --2.26%--do_anonymous_page
+                          |          
+                           --0.74%--folio_add_new_anon_rmap
+
+     2.26%     0.00%  perf_target  [kernel.kallsyms]     [k] do_anonymous_page
+            |
+            ---do_anonymous_page
+               |          
+                --0.74%--folio_add_new_anon_rmap
+
+     1.77%     0.00%  perf_target  libc.so.6             [.] _IO_file_overflow@@GLIBC_2.2.5
+            |
+            ---_IO_file_overflow@@GLIBC_2.2.5
+               |          
+               |--1.02%--_IO_do_write@@GLIBC_2.2.5
+               |          __GI___libc_write
+               |          entry_SYSCALL_64_after_hwframe
+               |          do_syscall_64
+               |          x64_sys_call
+               |          __x64_sys_write
+               |          ksys_write
+               |          vfs_write
+               |          ext4_file_write_iter
+               |          ext4_buffered_write_iter
+               |          generic_perform_write
+               |          ext4_da_write_begin
+               |          ext4_block_write_begin
+               |          ext4_da_get_block_prep
+               |          ext4_da_map_blocks.constprop.0
+               |          _raw_read_unlock
+               |          
+                --0.75%--_IO_doallocbuf
+                          __fstat64
+                          entry_SYSCALL_64_after_hwframe
+                          do_syscall_64
+                          x64_sys_call
+                          __x64_sys_newfstat
+                          __do_sys_newfstat
+                          cp_new_stat
+                          _copy_to_user
+
+     1.61%     0.00%  perf_target  [kernel.kallsyms]     [k] do_vmi_munmap
+            |
+            ---do_vmi_munmap
+               do_vmi_align_munmap
+               |          
+               |--0.94%--unmap_region
+               |          unmap_vmas
+               |          unmap_single_vma
+               |          unmap_page_range
+               |          zap_pmd_range.isra.0
+               |          zap_pte_range
+               |          
+                --0.68%--__split_vma
+                          vma_prepare
+                          vma_interval_tree_insert
+
+     1.61%     0.00%  perf_target  [kernel.kallsyms]     [k] do_vmi_align_munmap
+            |
+            ---do_vmi_align_munmap
+               |          
+               |--0.94%--unmap_region
+               |          unmap_vmas
+               |          unmap_single_vma
+               |          unmap_page_range
+               |          zap_pmd_range.isra.0
+               |          zap_pte_range
+               |          
+                --0.68%--__split_vma
+                          vma_prepare
+                          vma_interval_tree_insert
+
+     1.35%     0.00%  perf_target  [unknown]             [.] 0x40f0948000000000
+            |
+            ---0x40f0948000000000
+               heavy_compute
+
+     1.32%     0.00%  perf_target  [unknown]             [.] 0x40e3292000000000
+            |
+            ---0x40e3292000000000
+               __ieee754_log_fma
+
+     1.24%     0.00%  perf_target  [unknown]             [.] 0x40f7df2000000000
+            |
+            ---0x40f7df2000000000
+               heavy_compute
+
+     1.23%     0.00%  perf_target  [unknown]             [.] 0x40f6564000000000
+            |
+            ---0x40f6564000000000
+               heavy_compute
+
+     1.20%     0.00%  perf_target  [unknown]             [.] 0x40ef9be000000000
+            |
+            ---0x40ef9be000000000
+               heavy_compute
+
+     1.17%     0.00%  perf_target  [unknown]             [.] 0x40d0dec000000000
+            |
+            ---0x40d0dec000000000
+               __ieee754_log_fma
+
+     1.12%     0.00%  perf_target  [unknown]             [.] 0x40f397e000000000
+            |
+            ---0x40f397e000000000
+               heavy_compute
+
+     1.10%     0.00%  perf_target  [unknown]             [.] 0x40e1058000000000
+            |
+            ---0x40e1058000000000
+               heavy_compute
+
+     1.09%     0.00%  perf_target  [unknown]             [.] 0x40f50f9000000000
+            |
+            ---0x40f50f9000000000
+               __ieee754_log_fma
+
+     1.08%     0.00%  perf_target  [unknown]             [.] 0x40e5e9a000000000
+            |
+            ---0x40e5e9a000000000
+               log@@GLIBC_2.29
+
+     1.06%     0.00%  perf_target  [unknown]             [.] 0x40b0850000000000
+            |
+            ---0x40b0850000000000
+               heavy_compute
+
+     1.05%     0.00%  perf_target  [unknown]             [.] 0x40eed8c000000000
+            |
+            ---0x40eed8c000000000
+               heavy_compute
+
+     1.04%     0.00%  perf_target  [unknown]             [.] 0x40d17e8000000000
+            |
+            ---0x40d17e8000000000
+               heavy_compute
+
+     1.04%     0.00%  perf_target  [unknown]             [.] 0x40efa9c000000000
+            |
+            ---0x40efa9c000000000
+               log@plt
+
+     1.03%     0.00%  perf_target  [unknown]             [.] 0x40d63e0000000000
+            |
+            ---0x40d63e0000000000
+               __ieee754_log_fma
+
+     1.03%     0.00%  perf_target  [unknown]             [.] 0x40f3a1d000000000
+            |
+            ---0x40f3a1d000000000
+               heavy_compute
+
+     1.03%     0.00%  perf_target  [unknown]             [.] 0x40e1e9a000000000
+            |
+            ---0x40e1e9a000000000
+               heavy_compute
+
+     1.02%     0.00%  perf_target  [unknown]             [.] 0x40dfd10000000000
+            |
+            ---0x40dfd10000000000
+               __ieee754_log_fma
+
+     1.02%     0.00%  perf_target  [unknown]             [.] 0x40f418b000000000
+            |
+            ---0x40f418b000000000
+               __ieee754_log_fma
+
+     1.02%     0.00%  perf_target  [unknown]             [.] 0x40f6056000000000
+            |
+            ---0x40f6056000000000
+               heavy_compute
+
+     1.02%     0.00%  perf_target  [unknown]             [.] 0x40e0648000000000
+            |
+            ---0x40e0648000000000
+               __ieee754_log_fma
+
+     1.02%     1.02%  perf_target  [kernel.kallsyms]     [k] ext4_da_get_block_prep
+            |
+            ---0x5d41dd6bc890
+               io_intensive
+               __fprintf_chk
+               __vfprintf_internal
+               __printf_buffer
+               __printf_buffer_write
+               __printf_buffer_flush
+               __printf_buffer_flush_to_file
+               _IO_file_overflow@@GLIBC_2.2.5
+               _IO_do_write@@GLIBC_2.2.5
+               __GI___libc_write
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_write
+               ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  libc.so.6             [.] __printf_buffer_write
+            |
+            ---__printf_buffer_write
+               __printf_buffer_flush
+               __printf_buffer_flush_to_file
+               _IO_file_overflow@@GLIBC_2.2.5
+               _IO_do_write@@GLIBC_2.2.5
+               __GI___libc_write
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_write
+               ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  libc.so.6             [.] __printf_buffer_flush
+            |
+            ---__printf_buffer_flush
+               __printf_buffer_flush_to_file
+               _IO_file_overflow@@GLIBC_2.2.5
+               _IO_do_write@@GLIBC_2.2.5
+               __GI___libc_write
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_write
+               ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  libc.so.6             [.] __printf_buffer_flush_to_file
+            |
+            ---__printf_buffer_flush_to_file
+               _IO_file_overflow@@GLIBC_2.2.5
+               _IO_do_write@@GLIBC_2.2.5
+               __GI___libc_write
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_write
+               ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  libc.so.6             [.] _IO_do_write@@GLIBC_2.2.5
+            |
+            ---_IO_do_write@@GLIBC_2.2.5
+               __GI___libc_write
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_write
+               ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  libc.so.6             [.] __GI___libc_write
+            |
+            ---__GI___libc_write
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_write
+               ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  [kernel.kallsyms]     [k] __x64_sys_write
+            |
+            ---__x64_sys_write
+               ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  [kernel.kallsyms]     [k] ksys_write
+            |
+            ---ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  [kernel.kallsyms]     [k] vfs_write
+            |
+            ---vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  [kernel.kallsyms]     [k] ext4_file_write_iter
+            |
+            ---ext4_file_write_iter
+               ext4_buffered_write_iter
+               generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  [kernel.kallsyms]     [k] ext4_buffered_write_iter
+            |
+            ---ext4_buffered_write_iter
+               generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  [kernel.kallsyms]     [k] generic_perform_write
+            |
+            ---generic_perform_write
+               ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  [kernel.kallsyms]     [k] ext4_da_write_begin
+            |
+            ---ext4_da_write_begin
+               ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  [kernel.kallsyms]     [k] ext4_block_write_begin
+            |
+            ---ext4_block_write_begin
+               ext4_da_get_block_prep
+               ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  [kernel.kallsyms]     [k] ext4_da_map_blocks.constprop.0
+            |
+            ---ext4_da_map_blocks.constprop.0
+               _raw_read_unlock
+
+     1.02%     0.00%  perf_target  [kernel.kallsyms]     [k] _raw_read_unlock
+            |
+            ---_raw_read_unlock
+
+     1.02%     0.00%  perf_target  [unknown]             [.] 0x40f341a000000000
+            |
+            ---0x40f341a000000000
+               log@@GLIBC_2.29
+
+     1.02%     0.00%  perf_target  [unknown]             [.] 0x40f697f000000000
+            |
+            ---0x40f697f000000000
+               heavy_compute
+
+     1.02%     0.00%  perf_target  [unknown]             [.] 0x40e1c66000000000
+            |
+            ---0x40e1c66000000000
+               heavy_compute
+
+     0.99%     0.99%  perf_target  libc.so.6             [.] __printf_buffer_to_file_switch
+            |
+            ---0x5d41dd6bc890
+               io_intensive
+               __fprintf_chk
+               __vfprintf_internal
+               __printf_buffer
+               __memmove_avx512_unaligned_erms
+
+     0.99%     0.00%  perf_target  libc.so.6             [.] __memmove_avx512_unaligned_erms
+            |
+            ---__memmove_avx512_unaligned_erms
+
+     0.98%     0.00%  perf_target  [unknown]             [.] 0x40ef34a000000000
+            |
+            ---0x40ef34a000000000
+               __ieee754_log_fma
+
+     0.98%     0.00%  perf_target  [unknown]             [.] 0x40bf4b0000000000
+            |
+            ---0x40bf4b0000000000
+               heavy_compute
+
+     0.98%     0.00%  perf_target  [unknown]             [.] 0x40e9898000000000
+            |
+            ---0x40e9898000000000
+               heavy_compute
+
+     0.97%     0.00%  perf_target  [unknown]             [.] 0x40f79ac000000000
+            |
+            ---0x40f79ac000000000
+               heavy_compute
+
+     0.97%     0.00%  perf_target  [unknown]             [.] 0x40e6334000000000
+            |
+            ---0x40e6334000000000
+               heavy_compute
+
+     0.97%     0.00%  perf_target  [unknown]             [.] 0x40f6bd3000000000
+            |
+            ---0x40f6bd3000000000
+               heavy_compute
+
+     0.97%     0.00%  perf_target  [unknown]             [.] 0x40e3336000000000
+            |
+            ---0x40e3336000000000
+               heavy_compute
+
+     0.97%     0.00%  perf_target  [unknown]             [.] 0x40ddcd4000000000
+            |
+            ---0x40ddcd4000000000
+               __ieee754_log_fma
+
+     0.96%     0.00%  perf_target  [unknown]             [.] 0x40f48a5000000000
+            |
+            ---0x40f48a5000000000
+               __ieee754_log_fma
+
+     0.96%     0.00%  perf_target  [unknown]             [.] 0x40f273a000000000
+            |
+            ---0x40f273a000000000
+               log@@GLIBC_2.29
+
+     0.96%     0.00%  perf_target  [unknown]             [.] 0x40db020000000000
+            |
+            ---0x40db020000000000
+               __ieee754_log_fma
+
+     0.96%     0.00%  perf_target  [unknown]             [.] 0x40d8db4000000000
+            |
+            ---0x40d8db4000000000
+               heavy_compute
+
+     0.96%     0.00%  perf_target  [unknown]             [.] 0x40f24a9000000000
+            |
+            ---0x40f24a9000000000
+               heavy_compute
+
+     0.96%     0.00%  perf_target  [unknown]             [.] 0x40f3286000000000
+            |
+            ---0x40f3286000000000
+               heavy_compute
+
+     0.96%     0.00%  perf_target  [unknown]             [.] 0x40f1c26000000000
+            |
+            ---0x40f1c26000000000
+               __ieee754_log_fma
+
+     0.96%     0.00%  perf_target  [unknown]             [.] 0x40d9d60000000000
+            |
+            ---0x40d9d60000000000
+               heavy_compute
+
+     0.96%     0.00%  perf_target  [unknown]             [.] 0x40d5fe0000000000
+            |
+            ---0x40d5fe0000000000
+               heavy_compute
+
+     0.95%     0.00%  perf_target  [unknown]             [.] 0x40d0418000000000
+            |
+            ---0x40d0418000000000
+               log@@GLIBC_2.29
+
+     0.95%     0.00%  perf_target  [unknown]             [.] 0x40f0a90000000000
+            |
+            ---0x40f0a90000000000
+               heavy_compute
+
+     0.95%     0.00%  perf_target  [unknown]             [.] 0x40ee922000000000
+            |
+            ---0x40ee922000000000
+               heavy_compute
+
+     0.95%     0.00%  perf_target  [unknown]             [.] 0x40c8158000000000
+            |
+            ---0x40c8158000000000
+               log@@GLIBC_2.29
+
+     0.95%     0.00%  perf_target  [unknown]             [.] 0x40ec682000000000
+            |
+            ---0x40ec682000000000
+               heavy_compute
+
+     0.95%     0.00%  perf_target  [unknown]             [.] 0x40affa0000000000
+            |
+            ---0x40affa0000000000
+               log@plt
+
+     0.95%     0.00%  perf_target  [unknown]             [.] 0x40e87b4000000000
+            |
+            ---0x40e87b4000000000
+               __ieee754_log_fma
+
+     0.94%     0.00%  perf_target  [unknown]             [.] 0x40f7dc5000000000
+            |
+            ---0x40f7dc5000000000
+               __ieee754_log_fma
+
+     0.94%     0.00%  perf_target  [unknown]             [.] 0x40e57ba000000000
+            |
+            ---0x40e57ba000000000
+               __ieee754_log_fma
+
+     0.94%     0.00%  perf_target  [unknown]             [.] 0x40f60f7000000000
+            |
+            ---0x40f60f7000000000
+               heavy_compute
+
+     0.94%     0.00%  perf_target  [unknown]             [.] 0x40e35fa000000000
+            |
+            ---0x40e35fa000000000
+               heavy_compute
+
+     0.94%     0.00%  perf_target  [unknown]             [.] 0x40f6617000000000
+            |
+            ---0x40f6617000000000
+               heavy_compute
+
+     0.94%     0.00%  perf_target  [unknown]             [.] 0x40e3630000000000
+            |
+            ---0x40e3630000000000
+               __ieee754_log_fma
+
+     0.94%     0.94%  perf_target  [kernel.kallsyms]     [k] __mod_memcg_lruvec_state
+            |
+            ---0x300000002
+               main
+               __munmap
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_munmap
+               __vm_munmap
+               do_vmi_munmap
+               do_vmi_align_munmap
+               unmap_region
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               zap_pte_range
+
+     0.94%     0.00%  perf_target  libc.so.6             [.] __munmap
+            |
+            ---__munmap
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_munmap
+               __vm_munmap
+               do_vmi_munmap
+               do_vmi_align_munmap
+               unmap_region
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               zap_pte_range
+
+     0.94%     0.00%  perf_target  [kernel.kallsyms]     [k] __x64_sys_munmap
+            |
+            ---__x64_sys_munmap
+               __vm_munmap
+               do_vmi_munmap
+               do_vmi_align_munmap
+               unmap_region
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               zap_pte_range
+
+     0.94%     0.00%  perf_target  [kernel.kallsyms]     [k] __vm_munmap
+            |
+            ---__vm_munmap
+               do_vmi_munmap
+               do_vmi_align_munmap
+               unmap_region
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               zap_pte_range
+
+     0.94%     0.00%  perf_target  [kernel.kallsyms]     [k] unmap_region
+            |
+            ---unmap_region
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               zap_pte_range
+
+     0.94%     0.00%  perf_target  [kernel.kallsyms]     [k] unmap_vmas
+            |
+            ---unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               zap_pte_range
+
+     0.94%     0.00%  perf_target  [kernel.kallsyms]     [k] unmap_single_vma
+            |
+            ---unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               zap_pte_range
+
+     0.94%     0.00%  perf_target  [kernel.kallsyms]     [k] unmap_page_range
+            |
+            ---unmap_page_range
+               zap_pmd_range.isra.0
+               zap_pte_range
+
+     0.94%     0.00%  perf_target  [kernel.kallsyms]     [k] zap_pmd_range.isra.0
+            |
+            ---zap_pmd_range.isra.0
+               zap_pte_range
+
+     0.94%     0.00%  perf_target  [kernel.kallsyms]     [k] zap_pte_range
+            |
+            ---zap_pte_range
+
+     0.93%     0.00%  perf_target  [unknown]             [.] 0x40f517d000000000
+            |
+            ---0x40f517d000000000
+               heavy_compute
+
+     0.93%     0.00%  perf_target  [unknown]             [.] 0x40e02ea000000000
+            |
+            ---0x40e02ea000000000
+               heavy_compute
+
+     0.93%     0.00%  perf_target  [unknown]             [.] 0x40f45e3000000000
+            |
+            ---0x40f45e3000000000
+               heavy_compute
+
+     0.93%     0.00%  perf_target  libc.so.6             [.] _itoa_word
+            |
+            ---_itoa_word
+
+     0.93%     0.00%  perf_target  [unknown]             [.] 0x40e1ada000000000
+            |
+            ---0x40e1ada000000000
+               __ieee754_log_fma
+
+     0.93%     0.00%  perf_target  [unknown]             [.] 0x40f3e30000000000
+            |
+            ---0x40f3e30000000000
+               log@@GLIBC_2.29
+
+     0.93%     0.00%  perf_target  [unknown]             [.] 0x40f47a1000000000
+            |
+            ---0x40f47a1000000000
+               __ieee754_log_fma
+
+     0.93%     0.00%  perf_target  [unknown]             [.] 0x40dd280000000000
+            |
+            ---0x40dd280000000000
+               log@@GLIBC_2.29
+
+     0.92%     0.00%  perf_target  [unknown]             [.] 0x40e02a6000000000
+            |
+            ---0x40e02a6000000000
+               log@plt
+
+     0.92%     0.00%  perf_target  [unknown]             [.] 0x40dfd34000000000
+            |
+            ---0x40dfd34000000000
+               __ieee754_log_fma
+
+     0.92%     0.00%  perf_target  [unknown]             [.] 0x40f4244000000000
+            |
+            ---0x40f4244000000000
+               heavy_compute
+
+     0.92%     0.00%  perf_target  [unknown]             [.] 0x40f49d4000000000
+            |
+            ---0x40f49d4000000000
+               heavy_compute
+
+     0.92%     0.00%  perf_target  [unknown]             [.] 0x40f35d9000000000
+            |
+            ---0x40f35d9000000000
+               heavy_compute
+
+     0.92%     0.00%  perf_target  [unknown]             [.] 0x40df080000000000
+            |
+            ---0x40df080000000000
+               heavy_compute
+
+     0.92%     0.00%  perf_target  [unknown]             [.] 0x40da448000000000
+            |
+            ---0x40da448000000000
+               __ieee754_log_fma
+
+     0.92%     0.00%  perf_target  [unknown]             [.] 0x40f2e09000000000
+            |
+            ---0x40f2e09000000000
+               heavy_compute
+
+     0.91%     0.00%  perf_target  [unknown]             [.] 0x40e00dc000000000
+            |
+            ---0x40e00dc000000000
+               heavy_compute
+
+     0.91%     0.00%  perf_target  [unknown]             [.] 0x40ddda8000000000
+            |
+            ---0x40ddda8000000000
+               log@plt
+
+     0.91%     0.00%  perf_target  [unknown]             [.] 0x40f4206000000000
+            |
+            ---0x40f4206000000000
+               heavy_compute
+
+     0.91%     0.00%  perf_target  [unknown]             [.] 0x40f33eb000000000
+            |
+            ---0x40f33eb000000000
+               heavy_compute
+
+     0.91%     0.00%  perf_target  [unknown]             [.] 0x40db654000000000
+            |
+            ---0x40db654000000000
+               heavy_compute
+
+     0.90%     0.00%  perf_target  [unknown]             [.] 0x40f2b7b000000000
+            |
+            ---0x40f2b7b000000000
+               log@@GLIBC_2.29
+
+     0.90%     0.00%  perf_target  [unknown]             [.] 0x40da2a0000000000
+            |
+            ---0x40da2a0000000000
+               heavy_compute
+
+     0.90%     0.00%  perf_target  [unknown]             [.] 0x40f273f000000000
+            |
+            ---0x40f273f000000000
+               log@@GLIBC_2.29
+
+     0.89%     0.00%  perf_target  [unknown]             [.] 0x40dbf30000000000
+            |
+            ---0x40dbf30000000000
+               __ieee754_log_fma
+
+     0.89%     0.00%  perf_target  [unknown]             [.] 0x40f2f78000000000
+            |
+            ---0x40f2f78000000000
+               __ieee754_log_fma
+
+     0.89%     0.00%  perf_target  [unknown]             [.] 0x40da99c000000000
+            |
+            ---0x40da99c000000000
+               __ieee754_log_fma
+
+     0.88%     0.00%  perf_target  [unknown]             [.] 0x40f2e62000000000
+            |
+            ---0x40f2e62000000000
+               heavy_compute
+
+     0.88%     0.00%  perf_target  [unknown]             [.] 0x40deb4c000000000
+            |
+            ---0x40deb4c000000000
+               __ieee754_log_fma
+
+     0.88%     0.00%  perf_target  [unknown]             [.] 0x40f3d72000000000
+            |
+            ---0x40f3d72000000000
+               __ieee754_log_fma
+
+     0.87%     0.00%  perf_target  [unknown]             [.] 0x40dea80000000000
+            |
+            ---0x40dea80000000000
+               log@@GLIBC_2.29
+
+     0.86%     0.00%  perf_target  [unknown]             [.] 0x40f4004000000000
+            |
+            ---0x40f4004000000000
+               heavy_compute
+
+     0.85%     0.68%  perf_target  [kernel.kallsyms]     [k] vma_interval_tree_insert
+            |          
+             --0.68%--_dl_start_user
+                       _dl_start
+                       _dl_sysdep_start
+                       dl_main
+                       _dl_map_object_deps
+                       _dl_catch_exception
+                       openaux
+                       _dl_map_object
+                       _dl_map_object_from_fd
+                       mmap64
+                       entry_SYSCALL_64_after_hwframe
+                       do_syscall_64
+                       x64_sys_call
+                       __x64_sys_mmap
+                       ksys_mmap_pgoff
+                       vm_mmap_pgoff
+                       do_mmap
+                       mmap_region
+                       __mmap_region
+                       do_vmi_munmap
+                       do_vmi_align_munmap
+                       __split_vma
+                       vma_prepare
+                       vma_interval_tree_insert
+
+     0.85%     0.00%  perf_target  [kernel.kallsyms]     [k] vm_mmap_pgoff
+            |
+            ---vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               |          
+                --0.68%--do_vmi_munmap
+                          do_vmi_align_munmap
+                          __split_vma
+                          vma_prepare
+                          vma_interval_tree_insert
+
+     0.85%     0.00%  perf_target  [kernel.kallsyms]     [k] do_mmap
+            |
+            ---do_mmap
+               mmap_region
+               __mmap_region
+               |          
+                --0.68%--do_vmi_munmap
+                          do_vmi_align_munmap
+                          __split_vma
+                          vma_prepare
+                          vma_interval_tree_insert
+
+     0.85%     0.00%  perf_target  [kernel.kallsyms]     [k] mmap_region
+            |
+            ---mmap_region
+               __mmap_region
+               |          
+                --0.68%--do_vmi_munmap
+                          do_vmi_align_munmap
+                          __split_vma
+                          vma_prepare
+                          vma_interval_tree_insert
+
+     0.85%     0.00%  perf_target  [kernel.kallsyms]     [k] __mmap_region
+            |
+            ---__mmap_region
+               |          
+                --0.68%--do_vmi_munmap
+                          do_vmi_align_munmap
+                          __split_vma
+                          vma_prepare
+                          vma_interval_tree_insert
+
+     0.85%     0.00%  perf_target  [unknown]             [.] 0x40e15ae000000000
+            |
+            ---0x40e15ae000000000
+               __ieee754_log_fma
+
+     0.84%     0.00%  perf_target  [unknown]             [.] 0x40f5512000000000
+            |
+            ---0x40f5512000000000
+               heavy_compute
+
+     0.83%     0.00%  perf_target  [unknown]             [.] 0x40e3412000000000
+            |
+            ---0x40e3412000000000
+               heavy_compute
+
+     0.81%     0.00%  perf_target  [unknown]             [.] 0x40f688c000000000
+            |
+            ---0x40f688c000000000
+               __ieee754_log_fma
+
+     0.79%     0.00%  perf_target  [unknown]             [.] 0x40e7e58000000000
+            |
+            ---0x40e7e58000000000
+               heavy_compute
+
+     0.79%     0.00%  perf_target  [unknown]             [.] 0x40f4684000000000
+            |
+            ---0x40f4684000000000
+               heavy_compute
+
+     0.78%     0.78%  perf_target  [kernel.kallsyms]     [k] __pte_offset_map_lock
+            |
+            ---0x300000002
+               main
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+
+     0.77%     0.00%  perf_target  [unknown]             [.] 0x40b8880000000000
+            |
+            ---0x40b8880000000000
+               heavy_compute
+
+     0.77%     0.00%  perf_target  [unknown]             [.] 0x40e47ec000000000
+            |
+            ---0x40e47ec000000000
+               __ieee754_log_fma
+
+     0.75%     0.00%  perf_target  [unknown]             [.] 0x40ee928000000000
+            |
+            ---0x40ee928000000000
+               heavy_compute
+
+     0.75%     0.75%  perf_target  [kernel.kallsyms]     [k] generic_fillattr
+            |
+            ---_start
+               __libc_start_main@@GLIBC_2.34
+               main
+               _IO_puts
+               _IO_file_xsputn@@GLIBC_2.2.5
+               _IO_file_overflow@@GLIBC_2.2.5
+               _IO_doallocbuf
+               __fstat64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_newfstat
+               __do_sys_newfstat
+               cp_new_stat
+               _copy_to_user
+
+     0.75%     0.00%  perf_target  perf_target           [.] _start
+            |
+            ---_start
+               __libc_start_main@@GLIBC_2.34
+               main
+               _IO_puts
+               _IO_file_xsputn@@GLIBC_2.2.5
+               _IO_file_overflow@@GLIBC_2.2.5
+               _IO_doallocbuf
+               __fstat64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_newfstat
+               __do_sys_newfstat
+               cp_new_stat
+               _copy_to_user
+
+     0.75%     0.00%  perf_target  libc.so.6             [.] __libc_start_main@@GLIBC_2.34
+            |
+            ---__libc_start_main@@GLIBC_2.34
+               main
+               _IO_puts
+               _IO_file_xsputn@@GLIBC_2.2.5
+               _IO_file_overflow@@GLIBC_2.2.5
+               _IO_doallocbuf
+               __fstat64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_newfstat
+               __do_sys_newfstat
+               cp_new_stat
+               _copy_to_user
+
+     0.75%     0.00%  perf_target  libc.so.6             [.] _IO_puts
+            |
+            ---_IO_puts
+               _IO_file_xsputn@@GLIBC_2.2.5
+               _IO_file_overflow@@GLIBC_2.2.5
+               _IO_doallocbuf
+               __fstat64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_newfstat
+               __do_sys_newfstat
+               cp_new_stat
+               _copy_to_user
+
+     0.75%     0.00%  perf_target  libc.so.6             [.] _IO_file_xsputn@@GLIBC_2.2.5
+            |
+            ---_IO_file_xsputn@@GLIBC_2.2.5
+               _IO_file_overflow@@GLIBC_2.2.5
+               _IO_doallocbuf
+               __fstat64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_newfstat
+               __do_sys_newfstat
+               cp_new_stat
+               _copy_to_user
+
+     0.75%     0.00%  perf_target  libc.so.6             [.] _IO_doallocbuf
+            |
+            ---_IO_doallocbuf
+               __fstat64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_newfstat
+               __do_sys_newfstat
+               cp_new_stat
+               _copy_to_user
+
+     0.75%     0.00%  perf_target  libc.so.6             [.] __fstat64
+            |
+            ---__fstat64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_newfstat
+               __do_sys_newfstat
+               cp_new_stat
+               _copy_to_user
+
+     0.75%     0.00%  perf_target  [kernel.kallsyms]     [k] __x64_sys_newfstat
+            |
+            ---__x64_sys_newfstat
+               __do_sys_newfstat
+               cp_new_stat
+               _copy_to_user
+
+     0.75%     0.00%  perf_target  [kernel.kallsyms]     [k] __do_sys_newfstat
+            |
+            ---__do_sys_newfstat
+               cp_new_stat
+               _copy_to_user
+
+     0.75%     0.00%  perf_target  [kernel.kallsyms]     [k] cp_new_stat
+            |
+            ---cp_new_stat
+               _copy_to_user
+
+     0.75%     0.00%  perf_target  [kernel.kallsyms]     [k] _copy_to_user
+            |
+            ---_copy_to_user
+
+     0.75%     0.75%  perf_target  [kernel.kallsyms]     [k] folio_add_lru
+            |
+            ---0x300000002
+               main
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+
+     0.74%     0.00%  perf_target  [unknown]             [.] 0x40d9194000000000
+            |
+            ---0x40d9194000000000
+               heavy_compute
+
+     0.74%     0.74%  perf_target  [kernel.kallsyms]     [k] _raw_spin_lock
+            |
+            ---0x300000002
+               main
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               folio_add_new_anon_rmap
+
+     0.74%     0.00%  perf_target  [kernel.kallsyms]     [k] folio_add_new_anon_rmap
+            |
+            ---folio_add_new_anon_rmap
+
+     0.68%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_start_user
+            |
+            ---_dl_start_user
+               _dl_start
+               _dl_sysdep_start
+               dl_main
+               _dl_map_object_deps
+               _dl_catch_exception
+               openaux
+               _dl_map_object
+               _dl_map_object_from_fd
+               mmap64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_mmap
+               ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_start
+            |
+            ---_dl_start
+               _dl_sysdep_start
+               dl_main
+               _dl_map_object_deps
+               _dl_catch_exception
+               openaux
+               _dl_map_object
+               _dl_map_object_from_fd
+               mmap64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_mmap
+               ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_sysdep_start
+            |
+            ---_dl_sysdep_start
+               dl_main
+               _dl_map_object_deps
+               _dl_catch_exception
+               openaux
+               _dl_map_object
+               _dl_map_object_from_fd
+               mmap64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_mmap
+               ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] dl_main
+            |
+            ---dl_main
+               _dl_map_object_deps
+               _dl_catch_exception
+               openaux
+               _dl_map_object
+               _dl_map_object_from_fd
+               mmap64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_mmap
+               ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_map_object_deps
+            |
+            ---_dl_map_object_deps
+               _dl_catch_exception
+               openaux
+               _dl_map_object
+               _dl_map_object_from_fd
+               mmap64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_mmap
+               ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_catch_exception
+            |
+            ---_dl_catch_exception
+               openaux
+               _dl_map_object
+               _dl_map_object_from_fd
+               mmap64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_mmap
+               ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] openaux
+            |
+            ---openaux
+               _dl_map_object
+               _dl_map_object_from_fd
+               mmap64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_mmap
+               ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_map_object
+            |
+            ---_dl_map_object
+               _dl_map_object_from_fd
+               mmap64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_mmap
+               ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_map_object_from_fd
+            |
+            ---_dl_map_object_from_fd
+               mmap64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_mmap
+               ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] mmap64
+            |
+            ---mmap64
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_mmap
+               ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  [kernel.kallsyms]     [k] __x64_sys_mmap
+            |
+            ---__x64_sys_mmap
+               ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  [kernel.kallsyms]     [k] ksys_mmap_pgoff
+            |
+            ---ksys_mmap_pgoff
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               __mmap_region
+               do_vmi_munmap
+               do_vmi_align_munmap
+               __split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  [kernel.kallsyms]     [k] __split_vma
+            |
+            ---__split_vma
+               vma_prepare
+               vma_interval_tree_insert
+
+     0.68%     0.00%  perf_target  [kernel.kallsyms]     [k] vma_prepare
+            |
+            ---vma_prepare
+               vma_interval_tree_insert
+
+     0.56%     0.00%  perf_target  [unknown]             [.] 0x40d5880000000000
+            |
+            ---0x40d5880000000000
+               __ieee754_log_fma
+
+     0.46%     0.46%  perf_target  [kernel.kallsyms]     [k] srso_alias_return_thunk
+     0.46%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _start
+     0.46%     0.00%  perf_target  [kernel.kallsyms]     [k] do_fault
+     0.46%     0.00%  perf_target  [kernel.kallsyms]     [k] do_read_fault
+     0.46%     0.00%  perf_target  [kernel.kallsyms]     [k] filemap_map_pages
+     0.46%     0.00%  perf_target  [kernel.kallsyms]     [k] next_uptodate_folio
+     0.21%     0.00%  perf_target  [unknown]             [k] 0x00007e499b2ef03b
+     0.21%     0.00%  perf_target  [kernel.kallsyms]     [k] __x64_sys_execve
+     0.21%     0.00%  perf_target  [kernel.kallsyms]     [k] do_execveat_common.isra.0
+     0.21%     0.00%  perf_target  [kernel.kallsyms]     [k] bprm_execve
+     0.21%     0.00%  perf_target  [kernel.kallsyms]     [k] bprm_execve.part.0
+     0.21%     0.00%  perf_target  [kernel.kallsyms]     [k] exec_binprm
+     0.21%     0.00%  perf_target  [kernel.kallsyms]     [k] search_binary_handler
+     0.21%     0.00%  perf_target  [kernel.kallsyms]     [k] load_elf_binary
+     0.17%     0.17%  perf_target  [kernel.kallsyms]     [k] mas_store_prealloc
+     0.17%     0.00%  perf_target  [kernel.kallsyms]     [k] elf_load
+     0.17%     0.00%  perf_target  [kernel.kallsyms]     [k] vm_mmap
+     0.08%     0.00%  perf_target  [unknown]             [.] 0x40f6bfb000000000
+     0.03%     0.03%  perf_target  [kernel.kallsyms]     [k] commit_creds
+     0.03%     0.00%  perf_target  [kernel.kallsyms]     [k] begin_new_exec
+     0.03%     0.00%  perf_target  [kernel.kallsyms]     [k] security_bprm_committed_creds
+     0.03%     0.00%  perf_target  [kernel.kallsyms]     [k] apparmor_bprm_committed_creds
+     0.01%     0.00%  perf_target  [unknown]             [k] 0x40f5b89000000000
+     0.01%     0.01%  perf_target  [kernel.kallsyms]     [k] __irqentry_text_end
+     0.00%     0.00%  perf-exec    [unknown]             [k] 0x00007e499b2ef03b
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] do_syscall_64
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] x64_sys_call
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] __x64_sys_execve
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] do_execveat_common.isra.0
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] bprm_execve
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] bprm_execve.part.0
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] exec_binprm
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] search_binary_handler
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] load_elf_binary
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] begin_new_exec
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] perf_event_exec
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] perf_event_enable_on_exec
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] ctx_resched
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] x86_pmu_enable
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] perf_ctx_enable
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] amd_pmu_lbr_enable_all
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] native_write_msr
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] asm_sysvec_reschedule_ipi
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] sysvec_reschedule_ipi
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] irqentry_exit
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] irqentry_exit_to_user_mode
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] schedule
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] __schedule
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] finish_task_switch.isra.0
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] __perf_event_task_sched_in
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] ctx_sched_in
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] ctx_groups_sched_in
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] visit_groups_merge.constprop.0.isra.0
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] merge_sched_in
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] event_sched_in
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] perf_ibs_add
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] perf_ibs_start
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] perf_event_update_userpage
+     0.00%     0.00%  perf_target  [kernel.kallsyms]     [k] calc_timer_values
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] perf_event_update_userpage
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] ctx_sched_in
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] ctx_groups_sched_in
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] visit_groups_merge.constprop.0.isra.0
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] merge_sched_in
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] event_sched_in
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] perf_ibs_add
+     0.00%     0.00%  perf-exec    [kernel.kallsyms]     [k] native_write_msr
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

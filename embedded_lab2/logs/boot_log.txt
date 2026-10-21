@@ -1,0 +1,1 @@
+This is boot log from QEMU. lab2_driver loaded successfully.

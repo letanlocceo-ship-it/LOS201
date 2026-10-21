@@ -1,0 +1,229 @@
+(gdb) Remote debugging using localhost:1234
+Reading symbols from /usr/arm-linux-gnueabihf/lib/ld-linux-armhf.so.3...
+warning: BFD: warning: system-supplied DSO at 0x40820000 has a corrupt string table index
+0x40810598 in _start () from /usr/arm-linux-gnueabihf/lib/ld-linux-armhf.so.3
+(gdb) Breakpoint 1 at 0x40072e: file buggy_app.c, line 36.
+(gdb) Breakpoint 2 at 0x400682: file buggy_app.c, line 7.
+(gdb) Breakpoint 3 at 0x4006cc: file buggy_app.c, line 18.
+(gdb) Breakpoint 4 at 0x4006fc: file buggy_app.c, line 28.
+(gdb) Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040072e in main at buggy_app.c:36
+2       breakpoint     keep y   0x00400682 in process_data at buggy_app.c:7
+3       breakpoint     keep y   0x004006cc in create_message at buggy_app.c:18
+4       breakpoint     keep y   0x004006fc in calculate at buggy_app.c:28
+(gdb) Continuing.
+
+Breakpoint 1, main (argc=1, argv=0x407ffdd4) at buggy_app.c:36
+36	{
+(gdb) 37	    printf("=== Buggy App v1.0 - LAB-03 Debug Target ===\n");
+(gdb) 39	    int arr[5] = {10, 20, 30, 40, 50};
+(gdb) #0  main (argc=1, argv=0x407ffdd4) at buggy_app.c:39
+(gdb) arr = {0, 1082130304, 266318039, 127, 0}
+msg = 0x64 <error: Cannot access memory at address 0x64>
+(gdb) $1 = {0, 1082130304, 266318039, 127, 0}
+(gdb) Continuing.
+
+Breakpoint 2, process_data (data=0x407ffc38, len=5) at buggy_app.c:7
+7	    int sum = 0;
+(gdb) 9	    for (int i = 0; i < len; i++) {
+(gdb) $2 = 1082129448
+(gdb) Hardware watchpoint 5: i
+(gdb) Continuing.
+Warning:
+Could not insert hardware watchpoint 5.
+Could not insert hardware breakpoints:
+You may have requested too many hardware breakpoints/watchpoints.
+
+Command aborted.
+(gdb) $3 = 1082129448
+(gdb) $4 = (int *) 0x407ffc4c
+(gdb) (gdb) Continuing.
+
+Breakpoint 3, create_message (text=0x400944 "Hello Embedded Linux") at buggy_app.c:18
+18	    char *buf = malloc(strlen(text) + 1);
+(gdb) 20	    strcpy(buf, text);
+(gdb) 23	    return buf;
+(gdb) 24	}
+(gdb) $5 = 0x403598 "Hello Embedded Linux"
+(gdb) 0x403598:	"Hello Embedded Linux"
+(gdb) Continuing.
+
+Breakpoint 4, calculate (a=100000, b=100000) at buggy_app.c:28
+28	    int result = a * b;
+(gdb) 30	    printf("calculate(%d, %d) = %d\n", a, b, result);
+(gdb) r0             0x186a0             100000
+r1             0x186a0             100000
+r2             0x186a0             100000
+r3             0x540be400          1410065408
+r4             0x407ffc48          1082129480
+r5             0x4009a0            4196768
+r6             0x401eac            4202156
+r7             0x407ffc10          1082129424
+r8             0x400725            4196133
+r9             0x4081ecd8          1082256600
+r10            0x0                 0
+r11            0x401eac            4202156
+r12            0x4                 4
+sp             0x407ffc10          0x407ffc10
+lr             0x4007b7            4196279
+pc             0x400706            0x400706 <calculate+20>
+cpsr           0x20070030          537329712
+fpscr          0x0                 0
+fpsid          0x41034070          1090732144
+fpexc          0x40000000          1073741824
+ID_MMFR1       0x40000000          1073741824
+ID_MMFR2       0x1260000           19267584
+DFAR           0x0                 0
+PMEVTYPER0     0x0                 0
+ID_MMFR3       0x2122211           34742801
+PMEVTYPER1     0x0                 0
+NSACR          0xc00               3072
+HACTLR2        0x0                 0
+ERRIDR_EL1     0x0                 0
+VSESR_EL2      0x0                 0
+PMEVTYPER2     0x0                 0
+DBGCLAIMSET_EL1 0xff               255
+PMEVTYPER3     0x0                 0
+DBGBVR4_EL1    0x0                 0
+PMEVTYPER4     0x0                 0
+DBGBCR4_EL1    0x0                 0
+PMEVTYPER5     0x0                 0
+PMCCNTR        0x0                 0
+VDISR_EL2      0x0                 0
+RES_0_C0_C4_X  0x0                 0
+JIDR           0x0                 0
+RES_0_C0_C12_X 0x0                 0
+ACTLR_EL2      0x0                 0
+JOSCR          0x0                 0
+RES_0_C0_C7_X  0x0                 0
+PMCCFILTR      0x0                 0
+RES_0_C0_C15_X 0x0                 0
+AFSR0_EL1      0x0                 0
+MDSCR_EL1      0x0                 0
+AFSR1_EL1      0x0                 0
+PAR            0x0                 0
+DBGBVR2_EL1    0x0                 0
+JMCR           0x0                 0
+DBGWVR2_EL1    0x0                 0
+ID_ISAR0       0x2101110           34607376
+DBGWCR2_EL1    0x0                 0
+ID_ISAR1       0x13112111          319889681
+VBAR           0x0                 0
+DBGBCR2_EL1    0x0                 0
+ID_ISAR2       0x21232042          555950146
+RVBAR_EL1      0x0                 0
+ID_ISAR3       0x1112131           17899825
+RES_0_C0_C10_X 0x0                 0
+RMR_EL1        0x0                 0
+ID_ISAR4       0x11142             69954
+ID_ISAR5       0x11011121          285282593
+ID_MMFR4       0x20021110          537006352
+AMAIR0         0x0                 0
+ID_ISAR6       0x1111111           17895697
+AMAIR1         0x0                 0
+FCSEIDR        0x0                 0
+CONTEXTIDR_EL1 0x0                 0
+TTBR0          0x0                 0
+DBGCLAIMCLR_EL1 0x0                0
+TPIDRURW       0x0                 0
+DBGBVR5_EL1    0x0                 0
+TTBR1          0x0                 0
+DBGBCR5_EL1    0x0                 0
+TPIDRPRW       0x0                 0
+PMUSERENR      0x0                 0
+RES_0_C0_C5_X  0x0                 0
+PMINTENSET     0x0                 0
+TPIDRURO       0x40822120          1082269984
+PMOVSSET       0x0                 0
+RES_0_C0_C13_X 0x0                 0
+PMCEID2        0x0                 0
+DBGDIDR        0x3516d000          890687488
+PMEVCNTR0      0x0                 0
+PMCEID3        0x0                 0
+PMEVCNTR1      0x0                 0
+OSDTRRX_EL1    0x0                 0
+PMMIR_EL1      0x0                 0
+PMEVCNTR2      0x0                 0
+PMEVCNTR3      0x0                 0
+DBGBVR0_EL1    0x0                 0
+PMEVCNTR4      0x0                 0
+DBGBCR0_EL1    0x0                 0
+PMEVCNTR5      0x0                 0
+DBGWVR0_EL1    0x0                 0
+MIDR_EL1       0x411fd070          1092604016
+DBGWCR0_EL1    0x0                 0
+CTR            0x8444c004          -2075869180
+TCMTR          0x0                 0
+RES_0_C0_C8_X  0x0                 0
+TLBTR          0x0                 0
+MPIDR_EL1      0x80000000          -2147483648
+REVIDR_EL1     0x0                 0
+SCTLR          0xc50838            12912696
+MIDR           0x411fd070          1092604016
+ACTLR_EL1      0x0                 0
+DBGDTR_EL0     0x0                 0
+CPACR          0xf00000            15728640
+OSDTRTX_EL1    0x0                 0
+CLIDR          0xa200023           169869347
+ACTLR2         0x0                 0
+DBGBVR3_EL1    0x0                 0
+DBGBCR3_EL1    0x0                 0
+TTBR0_EL1      0x0                 0
+PMCR           0x41013000          1090596864
+DBGWVR3_EL1    0x0                 0
+RES_0_C0_C3_0  0x0                 0
+TTBR1_EL1      0x0                 0
+PMCNTENSET     0x0                 0
+DBGWCR3_EL1    0x0                 0
+RES_0_C0_C3_1  0x0                 0
+TTBCR          0x0                 0
+PMCNTENCLR     0x0                 0
+RES_0_C0_C3_2  0x0                 0
+AIDR           0x0                 0
+PMOVSR         0x0                 0
+RES_0_C0_C3_3  0x0                 0
+CSSELR         0x0                 0
+OSDLR_EL1      0x0                 0
+ID_PFR2        0x11                17
+PMSELR         0x0                 0
+ID_DFR1        0x10                16
+DACR           0x0                 0
+PMCEID0        0x1                 1
+RES_0_C0_C11_X 0x0                 0
+ID_MMFR5       0x1                 1
+PMCEID1        0x10000018          268435480
+DISR_EL1       0x0                 0
+RES_0_C0_C3_7  0x0                 0
+SDCR           0x0                 0
+TTBCR2         0x0                 0
+OSECCR_EL1     0x0                 0
+RES_0_C0_C6_X  0x0                 0
+RES_0_C0_C14_X 0x0                 0
+DBGDSCRint     0x0                 0
+DFSR           0x0                 0
+IFSR           0x0                 0
+DBGBVR1_EL1    0x0                 0
+DBGBCR1_EL1    0x0                 0
+CBAR           0x0                 0
+DBGWVR1_EL1    0x0                 0
+ID_PFR0        0x11020131          285344049
+DBGDEVID2      0x0                 0
+DBGWCR1_EL1    0x0                 0
+ID_PFR1        0x10001             65537
+DBGDEVID1      0x2                 2
+ID_DFR0        0x6000009           100663305
+WFAR           0x0                 0
+MAIR0          0x0                 0
+DBGDEVID       0x110f13            1117971
+IFAR           0x0                 0
+ID_AFR0        0x0                 0
+MAIR1          0x0                 0
+RES_0_C0_C9_X  0x0                 0
+ID_MMFR0       0x10101105          269488389
+OSLSR_EL1      0xa                 10
+(gdb) pc             0x400706            0x400706 <calculate+20>
+sp             0x407ffc10          0x407ffc10
+lr             0x4007b7            4196279
+(gdb) Continuing.
+[Inferior 1 (process 69470) exited normally]
+(gdb) 

@@ -1,0 +1,1 @@
+Formatted JFFS2 and wrote to NAND. /mnt/jffs2 mounted.

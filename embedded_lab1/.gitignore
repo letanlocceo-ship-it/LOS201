@@ -1,0 +1,20 @@
+# Large source/build trees
+kernel/
+uboot/
+
+# BusyBox source and archives
+rootfs/busybox-1.35.0/
+rootfs/busybox-1.35.0.tar.bz2
+rootfs/busybox-1.35.0.tar.bz2.1
+
+# Old/prototype rootfs
+initramfs-root/
+
+# Duplicate initramfs archive
+rootfs.cpio.gz
+
+# Editor / temporary files
+*~
+*.swp
+*.tmp
+.DS_Store
