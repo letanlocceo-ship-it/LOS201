@@ -1,0 +1,46 @@
+gcc -Wall -Wextra -pthread -lrt sms_app.c circular_buffer.c sensor_thread.c processor_thread.c alert_thread.c logger_thread.c -o sms_app_x86
+sensor_thread.c: In function ‘sensor_thread_func’:
+sensor_thread.c:13:17: error: ‘AppContext’ has no member named ‘sensor_fd’
+   13 |     int fd = ctx->sensor_fd;
+      |                 ^~
+sensor_thread.c:17:64: error: ‘AppContext’ has no member named ‘fifo_active’
+   17 |         if (sched_setscheduler(0, SCHED_FIFO, &param) == 0) ctx->fifo_active = true;
+      |                                                                ^~
+sensor_thread.c:18:55: error: ‘AppContext’ has no member named ‘fifo_active’
+   18 |         else { perror("[WARN] SCHED_FIFO failed"); ctx->fifo_active = false; }
+      |                                                       ^~
+In file included from app_config.h:4,
+                 from sensor_thread.h:3,
+                 from sensor_thread.c:1:
+sensor_thread.c:25:30: error: ‘AppContext’ has no member named ‘sensor_running’; did you mean ‘keep_running’?
+   25 |     while (atomic_load(&ctx->sensor_running)) {
+      |                              ^~~~~~~~~~~~~~
+sensor_thread.c:25:12: error: ‘__atomic_load_ptr’ undeclared (first use in this function); did you mean ‘__atomic_load_n’?
+   25 |     while (atomic_load(&ctx->sensor_running)) {
+      |            ^~~~~~~~~~~
+sensor_thread.c:25:12: note: each undeclared identifier is reported only once for each function it appears in
+sensor_thread.c:25:12: error: argument 1 of ‘__atomic_load’ must be a non-void pointer type
+   25 |     while (atomic_load(&ctx->sensor_running)) {
+      |            ^~~~~~~~~~~
+sensor_thread.c:34:36: error: ‘AppContext’ has no member named ‘sensor_running’; did you mean ‘keep_running’?
+   34 |             if (!atomic_load(&ctx->sensor_running)) break;
+      |                                    ^~~~~~~~~~~~~~
+sensor_thread.c:34:18: error: argument 1 of ‘__atomic_load’ must be a non-void pointer type
+   34 |             if (!atomic_load(&ctx->sensor_running)) break;
+      |                  ^~~~~~~~~~~
+sensor_thread.c:36:32: error: ‘AppContext’ has no member named ‘sensor_running’; did you mean ‘keep_running’?
+   36 |         if (!atomic_load(&ctx->sensor_running)) break;
+      |                                ^~~~~~~~~~~~~~
+sensor_thread.c:36:14: error: argument 1 of ‘__atomic_load’ must be a non-void pointer type
+   36 |         if (!atomic_load(&ctx->sensor_running)) break;
+      |              ^~~~~~~~~~~
+sensor_thread.c:49:48: error: ‘AppContext’ has no member named ‘sensor_running’; did you mean ‘keep_running’?
+   49 |         for (; retry < 10 && atomic_load(&ctx->sensor_running); retry++) {
+      |                                                ^~~~~~~~~~~~~~
+sensor_thread.c:49:30: error: argument 1 of ‘__atomic_load’ must be a non-void pointer type
+   49 |         for (; retry < 10 && atomic_load(&ctx->sensor_running); retry++) {
+      |                              ^~~~~~~~~~~
+sensor_thread.c:56:31: error: ‘AppContext’ has no member named ‘sensor_dropped_reads’
+   56 |         if (retry == 10) { ctx->sensor_dropped_reads++; continue; }
+      |                               ^~
+make: *** [Makefile:13: host] Error 1

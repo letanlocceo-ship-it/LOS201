@@ -1,0 +1,164 @@
+=== STATS TRUOC ===
+read_count: 0
+last_temperature: 25.0 C
+last_humidity: 50.0 %
+uptime: 0 seconds
+min_interval_ms: 100
+=== RUN 500ms/60s (FIFO) + snapshot RSS ===
+--- T=5s ---
+VmSize:	   34560 kB
+VmRSS:	   33412 kB
+--- T=30s ---
+VmSize:	   34560 kB
+VmRSS:	   33412 kB
+00010000-0007f000 r-xp 00000000 00:02 100        /sms_app
+0007f000-00082000 r--p 0006e000 00:02 100        /sms_app
+00082000-00084000 rw-p 00071000 00:02 100        /sms_app
+00084000-000a8000 rw-p 00000000 00:00 0          [heap]
+74d65000-74d66000 ---p 00000000 00:00 0 
+74d66000-75566000 rw-p 00000000 00:00 0 
+75566000-75567000 ---p 00000000 00:00 0 
+75567000-75d67000 rw-p 00000000 00:00 0 
+75e00000-75e21000 rw-p 00000000 00:00 0 
+75e21000-75f00000 ---p 00000000 00:00 0 
+75f67000-75f68000 ---p 00000000 00:00 0 
+75f68000-76768000 rw-p 00000000 00:00 0 
+76768000-76769000 ---p 00000000 00:00 0 
+76769000-76f69000 rw-p 00000000 00:00 0 
+7ef96000-7efb7000 rw-p 00000000 00:00 0          [stack]
+7efeb000-7efec000 r-xp 00000000 00:00 0          [sigpage]
+7efec000-7efed000 r--p 00000000 00:00 0          [vvar]
+7efed000-7efee000 r-xp 00000000 00:00 0          [vdso]
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]
+--- T=55s ---
+VmSize:	   34560 kB
+VmRSS:	   33412 kB
+SMS App started (Intv: 500ms, Dur: 60s)
+
+--- ALERT SUMMARY ---
+TEMP_HIGH: 21
+HUMID_HIGH: 20
+TEMP_SPIKE: 77
+
+--- BUFFER & SYSTEM SUMMARY ---
+Total Produced: 118
+Total Consumed: 118
+Overflows: 0
+Dropped: 2
+
+--- JITTER REPORT (SCHED_FIFO) ---
+Samples: 120
+Min: 318 us
+Avg: 739 us
+Max: 2072 us
+P99: 2031 us
+
+--- HISTOGRAM ---
+0-100us   : 0
+100-500us : 21
+500-1000us: 75
+>1000us   : 24
+=== STATS SAU ===
+read_count: 118
+last_temperature: 19.3 C
+last_humidity: 57.8 %
+uptime: 61 seconds
+min_interval_ms: 500
+=== JITTER: 3 vong OTHER/FIFO xen ke, co 2 busy-loop nen ===
+##### RUN 1 sched=0 #####
+Overflows: 0
+Dropped: 2
+
+--- JITTER REPORT (SCHED_OTHER) ---
+Samples: 1100
+Min: 171 us
+Avg: 343 us
+Max: 1426 us
+P99: 846 us
+--
+--- HISTOGRAM ---
+0-100us   : 0
+100-500us : 1063
+500-1000us: 32
+>1000us   : 5
+##### RUN 1 sched=1 #####
+Overflows: 0
+Dropped: 0
+
+--- JITTER REPORT (SCHED_FIFO) ---
+Samples: 1100
+Min: 133 us
+Avg: 214 us
+Max: 448 us
+P99: 330 us
+--
+--- HISTOGRAM ---
+0-100us   : 0
+100-500us : 1100
+500-1000us: 0
+>1000us   : 0
+##### RUN 2 sched=0 #####
+Overflows: 0
+Dropped: 1
+
+--- JITTER REPORT (SCHED_OTHER) ---
+Samples: 1100
+Min: 170 us
+Avg: 272 us
+Max: 3318 us
+P99: 535 us
+--
+--- HISTOGRAM ---
+0-100us   : 0
+100-500us : 1085
+500-1000us: 11
+>1000us   : 4
+##### RUN 2 sched=1 #####
+Overflows: 0
+Dropped: 0
+
+--- JITTER REPORT (SCHED_FIFO) ---
+Samples: 1100
+Min: 107 us
+Avg: 198 us
+Max: 731 us
+P99: 336 us
+--
+--- HISTOGRAM ---
+0-100us   : 0
+100-500us : 1098
+500-1000us: 2
+>1000us   : 0
+##### RUN 3 sched=0 #####
+Overflows: 0
+Dropped: 1
+
+--- JITTER REPORT (SCHED_OTHER) ---
+Samples: 1100
+Min: 172 us
+Avg: 296 us
+Max: 1848 us
+P99: 575 us
+--
+--- HISTOGRAM ---
+0-100us   : 0
+100-500us : 1078
+500-1000us: 21
+>1000us   : 1
+##### RUN 3 sched=1 #####
+Overflows: 0
+Dropped: 1
+
+--- JITTER REPORT (SCHED_FIFO) ---
+Samples: 1100
+Min: 91 us
+Avg: 192 us
+Max: 1095 us
+P99: 352 us
+--
+--- HISTOGRAM ---
+0-100us   : 1
+100-500us : 1095
+500-1000us: 3
+>1000us   : 1
+=== DONE ===

@@ -1,0 +1,2 @@
+gcc -Wall -Wextra -g -O2 -fno-omit-frame-pointer -pthread sms_app.c circular_buffer.c sensor_thread.c processor_thread.c alert_thread.c logger_thread.c -o sms_app_x86 -lrt -pthread
+arm-linux-gnueabihf-gcc -Wall -Wextra -g -O2 -fno-omit-frame-pointer -pthread -static sms_app.c circular_buffer.c sensor_thread.c processor_thread.c alert_thread.c logger_thread.c -o sms_app -lrt -pthread

@@ -1,0 +1,80 @@
+quit
+No symbol table is loaded.  Use the "file" command.
+Starting program:  -p sms_mock_sensor -i 500 -d 300
+No executable file specified.
+Use the "file" or "exec-file" command.
+No threads.
+No symbol table is loaded.  Use the "file" command.
+No symbol table is loaded.  Use the "file" command.
+No symbol table is loaded.  Use the "file" command.
+Undefined command: "".  Try "help".
+Already logging to ../logs/gdb_session.txt.
+No symbol table is loaded.  Use the "file" command.
+Starting program:  -p sms_mock_sensor -i 500 -d 300
+No executable file specified.
+Use the "file" or "exec-file" command.
+No threads.
+No symbol table is loaded.  Use the "file" command.
+No symbol table is loaded.  Use the "file" command.
+No breakpoint number 1.
+The program is not being run.
+quit
+No symbol table is loaded.  Use the "file" command.
+Starting program:  -p sms_mock_sensor -i 500 -d 30
+No executable file specified.
+Use the "file" or "exec-file" command.
+No threads.
+No symbol table is loaded.  Use the "file" command.
+No symbol table is loaded.  Use the "file" command.
+No breakpoint number 1.
+Working directory /home/letienthanh.
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+Argument required (starting display address).
+warning: Error detected on fd 0
+error detected on stdin
+Breakpoint 1 at 0x38f7: file processor_thread.c, line 46.
+Note: breakpoint 1 also set at pc 0x38f7.
+Breakpoint 2 at 0x38f7: file processor_thread.c, line 46.
+Starting program: /home/letienthanh/SE_201799_LeTienThanh_Asgn02/app/sms_app_x86 -p sms_mock_sensor -i 500 -d 15
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.ubuntu.com>
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff7bff6c0 (LWP 12662)]
+[New Thread 0x7fffef1ff6c0 (LWP 12663)]
+[New Thread 0x7ffff73fe6c0 (LWP 12664)]
+[New Thread 0x7ffff6bfd6c0 (LWP 12665)]
+[Switching to Thread 0x7ffff73fe6c0 (LWP 12664)]
+
+Thread 4 "sms_app_x86" hit Breakpoint 1, processor_thread_func (arg=0x7fffffff3d50) at processor_thread.c:46
+46	        if (data.temperature > ctx->temp_thresh) {
+$1 = 24.5
+Continuing.
+
+Thread 4 "sms_app_x86" hit Breakpoint 1, processor_thread_func (arg=0x7fffffff3d50) at processor_thread.c:46
+46	        if (data.temperature > ctx->temp_thresh) {
+Not confirmed.
